@@ -25,10 +25,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
     vendor/motorola/olympus/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
     vendor/motorola/olympus/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
-    vendor/motorola/olympus/proprietary/bin/nvcpud:system/bin/nvcpud \
     vendor/motorola/olympus/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/motorola/olympus/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
-    vendor/motorola/olympus/proprietary/lib/hw/vendor-camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
+    vendor/motorola/olympus/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/motorola/olympus/proprietary/etc/nvcamera.conf:system/etc/nvcamera.conf \
     vendor/motorola/olympus/proprietary/lib/hw/sensors.olympus.so:system/lib/hw/sensors.olympus.so \
     vendor/motorola/olympus/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
@@ -108,43 +107,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/etc/am2server.pubkey:system/etc/am2server.pubkey \
     vendor/motorola/olympus/proprietary/lib/libAuthUDMDrv_1750A100.so:system/lib/libAuthUDMDrv_1750A100.so \
     vendor/motorola/olympus/proprietary/lib/libam2app.so:system/lib/libam2app.so \
-    vendor/motorola/olympus/proprietary/lib/libam2server.so:system/lib/libam2server.so \
-    vendor/motorola/olympus/proprietary/lib/libnvcpud.so:system/lib/libnvcpud.so \
-    vendor/motorola/olympus/proprietary/lib/libnvcpud_client.so:system/lib/libnvcpud_client.so \
-    vendor/motorola/olympus/proprietary/bin/tegrastats:system/proprietary/bin/tegrastats \
-    vendor/motorola/olympus/proprietary/lib/hw/audio.a2dp.default.so:system/proprietary/lib/hw/audio.a2dp.default.so \
-    vendor/motorola/olympus/proprietary/lib/hw/gralloc.default.so:system/proprietary/lib/hw/gralloc.default.so \
-    vendor/motorola/olympus/proprietary/lib/hw/lights.tegra.so:system/proprietary/lib/hw/lights.tegra.so \
-    vendor/motorola/olympus/proprietary/lib/hw/nfc.tegra.so:system/proprietary/lib/hw/nfc.tegra.so \
-    vendor/motorola/olympus/proprietary/lib/libnvasfparserhal.so:system/proprietary/lib/libnvasfparserhal.so \
-    vendor/motorola/olympus/proprietary/lib/libnvaviparserhal.so:system/proprietary/lib/libnvaviparserhal.so \
-    vendor/motorola/olympus/proprietary/lib/libnvcap.so:system/proprietary/lib/libnvcap.so \
-    vendor/motorola/olympus/proprietary/lib/libnvcap_video.so:system/proprietary/lib/libnvcap_video.so \
-    vendor/motorola/olympus/proprietary/lib/libnvcapclk.so:system/proprietary/lib/libnvcapclk.so \
-    vendor/motorola/olympus/proprietary/lib/libnvcontrol_jni.so:system/proprietary/lib/libnvcontrol_jni.so \
-    vendor/motorola/olympus/proprietary/lib/libnvddk_aes_user.so:system/proprietary/lib/libnvddk_aes_user.so \
-    vendor/motorola/olympus/proprietary/lib/libnvhdmi3dplay_jni.so:system/proprietary/lib/libnvhdmi3dplay_jni.so \
-    vendor/motorola/olympus/proprietary/lib/libnvmm_image.so:system/proprietary/lib/libnvmm_image.so \
-    vendor/motorola/olympus/proprietary/lib/libnvmm_misc.so:system/proprietary/lib/libnvmm_misc.so \
-    vendor/motorola/olympus/proprietary/lib/libnvmm_parser.so:system/proprietary/lib/libnvmm_parser.so \
-    vendor/motorola/olympus/proprietary/lib/libnvmm_writer.so:system/proprietary/lib/libnvmm_writer.so \
-    vendor/motorola/olympus/proprietary/lib/libnvodm_dtvtuner.so:system/proprietary/lib/libnvodm_dtvtuner.so \
-    vendor/motorola/olympus/proprietary/lib/libnvodm_hdmi.so:system/proprietary/lib/libnvodm_hdmi.so \
-    vendor/motorola/olympus/proprietary/lib/libnvodm_misc.so:system/proprietary/lib/libnvodm_misc.so \
-    vendor/motorola/olympus/proprietary/lib/libnvomxadaptor.so:system/proprietary/lib/libnvomxadaptor.so \
-    vendor/motorola/olympus/proprietary/lib/libnvparser.so:system/proprietary/lib/libnvparser.so \
-    vendor/motorola/olympus/proprietary/lib/libnvsystemuiext_jni.so:system/proprietary/lib/libnvsystemuiext_jni.so \
-    vendor/motorola/olympus/proprietary/lib/libnvtestio.so:system/proprietary/lib/libnvtestio.so \
-    vendor/motorola/olympus/proprietary/lib/libnvtestresults.so:system/proprietary/lib/libnvtestresults.so \
-    vendor/motorola/olympus/proprietary/lib/libvoAndroid.so:system/proprietary/lib/libvoAndroid.so \
-    vendor/motorola/olympus/proprietary/lib/libvoConv420To422.so:system/proprietary/lib/libvoConv420To422.so \
-    vendor/motorola/olympus/proprietary/lib/libvoMMCCRRS.so:system/proprietary/lib/libvoMMCCRRS.so \
-    vendor/motorola/olympus/proprietary/lib/libvoMMPlay.so:system/proprietary/lib/libvoMMPlay.so \
-    vendor/motorola/olympus/proprietary/lib/libvoOMXME.so:system/proprietary/lib/libvoOMXME.so \
-    vendor/motorola/olympus/proprietary/lib/libvoOMXOne.so:system/proprietary/lib/libvoOMXOne.so \
-    vendor/motorola/olympus/proprietary/lib/libvoPackUV.so:system/proprietary/lib/libvoPackUV.so \
-    vendor/motorola/olympus/proprietary/lib/libvoRADec.so:system/proprietary/lib/libvoRADec.so \
-    vendor/motorola/olympus/proprietary/lib/libvoRealFR.so:system/proprietary/lib/libvoRealFR.so \
-    vendor/motorola/olympus/proprietary/lib/libvoRealVideoDec.so:system/proprietary/lib/libvoRealVideoDec.so \
-    vendor/motorola/olympus/proprietary/lib/libvoVidDec.so:system/proprietary/lib/libvoVidDec.so \
-    vendor/motorola/olympus/proprietary/lib/libvorbisidec.so:system/proprietary/lib/libvorbisidec.so
+    vendor/motorola/olympus/proprietary/lib/libam2server.so:system/lib/libam2server.so
