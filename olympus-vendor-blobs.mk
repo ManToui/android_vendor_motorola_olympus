@@ -107,4 +107,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/etc/am2server.pubkey:system/etc/am2server.pubkey \
     vendor/motorola/olympus/proprietary/lib/libAuthUDMDrv_1750A100.so:system/lib/libAuthUDMDrv_1750A100.so \
     vendor/motorola/olympus/proprietary/lib/libam2app.so:system/lib/libam2app.so \
-    vendor/motorola/olympus/proprietary/lib/libam2server.so:system/lib/libam2server.so
+    vendor/motorola/olympus/proprietary/lib/libam2server.so:system/lib/libam2server.so \
+    vendor/motorola/olympus/proprietary/bin/batch:system/bin/batch \
+    vendor/motorola/olympus/proprietary/bin/tcmd:system/bin/tcmd \
+    vendor/motorola/olympus/proprietary/bin/tcmdhelp:system/bin/tcmdhelp \
+    vendor/motorola/olympus/proprietary/lib/libtcmdcameraservice.so:system/lib/libtcmdcameraservice.so
