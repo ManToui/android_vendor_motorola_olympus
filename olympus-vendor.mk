@@ -35,3 +35,4 @@ PRODUCT_PACKAGES += DeepSleepService
 PRODUCT_PACKAGES += FastDormancy
 PRODUCT_PACKAGES += FingerprintSensor
 PRODUCT_PACKAGES += GfxEngine
+PRODUCT_PACKAGES += ExtDispService
