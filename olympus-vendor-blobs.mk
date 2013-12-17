@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
     vendor/motorola/olympus/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/motorola/olympus/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
-    vendor/motorola/olympus/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
+    vendor/motorola/olympus/proprietary/lib/hw/vendor-camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
     vendor/motorola/olympus/proprietary/etc/nvcamera.conf:system/etc/nvcamera.conf \
     vendor/motorola/olympus/proprietary/lib/hw/sensors.olympus.so:system/lib/hw/sensors.olympus.so \
     vendor/motorola/olympus/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
